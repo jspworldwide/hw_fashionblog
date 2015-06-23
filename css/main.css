@@ -1,0 +1,171 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+.alignright {
+     float: right; 
+     padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+     float: left; 
+     padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+body {
+     color: #444;
+     font-size: 15px;
+     line-height: 1.4;
+     font-family: 'lato', Helvetica, sans-serif;
+     padding: 4em;
+     max-width: 60em;
+}
+
+aside {
+     font-color: blue;
+     background-color: red;
+     width:20%;
+     float: right;
+}
+
+
+
+footer {
+     font-color: purple;
+}
+
+a {
+     color: #D00;
+     text-decoration: none;
+     -webkit-transition: all 300ms;
+     -moz-transition: all 300ms;
+     transition: all 300ms;
+}
+
+a:hover {
+     color: #A00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     margin: 0;
+     padding: 0;
+}
+
+h1 {
+     font-size: 3em;
+     font-weight: normal;
+}
+
+h2 a {
+     color: inherit;
+}
+
+h2 a:hover {
+     color: #D00;
+}
+
+h3 {
+     font-size: 2em;
+     font-weight: normal;
+     margin: 0;
+     padding: 0;
+}
+
+h4 {
+     text-align: right;
+}
+
+h5 {
+
+}
+
+img {
+     display: block;
+     margin: 10px 0;
+     max-width: 100%;
+}
+
+header h2 {
+     font-size: 1.5em;
+     margin-bottom: .5em;
+}
+
+article {
+     border-bottom: 1px solid #DDD;
+     margin: 3em 0;
+     padding-bottom: 1.5em;s
+     float:left;
+     width:65%;
+}
+
+article p:first-letter {
+     float: left;
+     font-size: 6em;
+     line-height: 1;
+     color: #DDD;
+     margin: -.1em .1em 0 -.1em;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+
+nav li {
+  font-family: 'lato', sans-serif;
+  font-size: 1.2em;
+  line-height: 10px;
+  height: 60px;
+  border-bottom: 1px solid #888;
+  display: inline-block;
+  width: auto;
+  border-left: 1px solid white;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin: 40px;
+  text:200;
+}
+
+div {
+     background-color: blue;
+     float: left;
+     color: white;
+     width: 80%;
+}
